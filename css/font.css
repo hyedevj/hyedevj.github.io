@@ -19,16 +19,38 @@
     font-weight: normal;
     font-style: normal;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: '양진체';
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-* {
+footer {
+    font-family: 'S-CoreDream-3Light';
+}
+
+.bg-dark {
     font-family: 'ONE-Mobile-Title';
+}
+.bg-primary {
+    font-family: 'ONE-Mobile-Title';
+}
+#contact {
+    font-family: 'ONE-Mobile-Title';
+}
+#portfolio {
+    font-family: 'ONE-Mobile-Title';
+}
+.header-content {
+    font-family: 'ONE-Mobile-Title';
+}
+#services {
+    font-family: 'ONE-Mobile-Title';
+}
+
+#recomm {
+    padding: 1vw;
+    font-size: 2.5vw;
+    text-align: center;
 }

@@ -246,7 +246,7 @@ header {
             transform: translateY(-50%);
             .project-category,
             .project-name {
-                @include sans-serif-font;
+                //@include sans-serif-font;
                 padding: 0 15px;
             }
             .project-category {
